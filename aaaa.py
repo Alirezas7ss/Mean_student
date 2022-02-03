@@ -1,5 +1,8 @@
 
 import csv
+from ctypes import LibraryLoader
+import statistics
+#for need to mean so import mean in statistics Library
 from statistics import mean
 d={}
 with open("s1.csv") as f:
